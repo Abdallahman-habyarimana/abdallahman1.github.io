@@ -17,6 +17,11 @@
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -275,6 +280,12 @@ nav.scrolled {
     background-color: #3b82f6;
 }
 
+/* Text */
+    .text-center {
+        text-align: center;
+    }
+/*Text end*/
+
 /* Projects Section */
 .section {
     padding: 120px 0;
@@ -411,6 +422,11 @@ nav.scrolled {
 .project-link:hover {
     color: var(--accent);
     transform: translateX(5px);
+}
+
+.center {
+    width: 100%;
+    align-items: center;
 }
 
 /* About Section */
